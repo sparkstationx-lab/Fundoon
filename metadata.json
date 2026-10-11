@@ -1,0 +1,6 @@
+{
+  "name": "Fundoon Games & Café",
+  "description": "Fundoon Games & Café in City Center, Gwalior – Your ultimate destination for PS5 gaming, snooker, pool tables, and delicious café food.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

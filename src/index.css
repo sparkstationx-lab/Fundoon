@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #121316;
+    color: #e5e7eb;
+    overflow-x: hidden;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', system-ui, -apple-system, sans-serif;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Matte Charcoal and Dark Grey custom surface gradients */
+.bg-matte-charcoal {
+  background: radial-gradient(120% 120% at 50% -10%, #22252e 0%, #16181e 50%, #0f1013 100%);
+}
+
+.bg-charcoal-card {
+  background-color: #1b1d24;
+  border-color: rgba(255, 255, 255, 0.09);
+}
+
+.bg-charcoal-elevated {
+  background-color: #21242d;
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+/* Subtle, sophisticated glows against matte charcoal */
+.glow-cyan {
+  box-shadow: 0 0 30px -5px rgba(6, 182, 212, 0.2);
+}
+
+.glow-subtle {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
+}
+
